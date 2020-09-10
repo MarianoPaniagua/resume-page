@@ -62,3 +62,63 @@ body {
         transform: translateY(10px);
     }
 }
+
+
+/*----About----*/
+
+.about {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.profile-img {
+    height: 400px;
+}
+
+.nav-bar {
+    top: 0;
+    position: sticky;
+    z-index: 2;
+}
+
+.navbar {
+    background-color: #000;
+}
+
+.navbar-brand img {
+    height: 50px;
+}
+
+.nav-bar .fa-bars {
+    font-size: 35px;
+    color: #fff;
+}
+
+.navbar-toggler {
+    outline: none !important;
+    /*line surronding the icon*/
+}
+
+.navbar-nav {
+    float: right;
+    text-align: right;
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+.skills-bar p {
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.progress {
+    border-radius: 16px !important;
+    margin-bottom: 10px;
+}
+
+.progress-bar {
+    border-radius: 16px;
+    background: #000 !important;
+}
