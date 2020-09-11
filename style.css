@@ -201,3 +201,8 @@ body {
     width: 80px;
     transition: 1s;
 }
+
+#downloadbtn a {
+    color: #fff;
+    text-decoration: none;
+}
