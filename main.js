@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
     function count() {
         fetch('https://resume-visit-counter.herokuapp.com/info', {
                 mode: 'cors',
+                method: 'post',
                 headers: {
                     'Access-Control-Allow-Origin': '*'
                 }
