@@ -177,8 +177,8 @@ body {
 }
 
 .timeline li h4 span {
-    font-weight: bold;
     color: #ccc;
+    font-size: 20px;
 }
 
 .social-icons {
@@ -305,3 +305,6 @@ body {
         margin-top: 20vh;
     }
 }
+
+
+/*--Loader--*/

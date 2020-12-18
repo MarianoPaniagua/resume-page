@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
+    let loading = document.getElementById("wrap");
 
     let certs = [];
 
