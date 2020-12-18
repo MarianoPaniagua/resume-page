@@ -242,3 +242,66 @@ body {
 .containerProfiles {
     margin-top: 15px;
 }
+
+.flip-box {
+    background-color: transparent;
+}
+
+.flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-box-front,
+.flip-box-back {
+    position: absolute;
+    width: 98%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    /* Safari */
+    backface-visibility: hidden;
+}
+
+.flip-box-front {
+    background-color: #bbb;
+    color: black;
+}
+
+.flip-box-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+@media (max-width:767px) {
+    .txt_aboutme {
+        margin-top: 82vh;
+    }
+    .profile-img {
+        width: 100%;
+        height: 350px;
+    }
+}
+
+@media (max-width:769px) {
+    .profile-img {
+        width: 98%;
+    }
+}
+
+@media (max-width:320px) {
+    .social-icons {
+        display: none;
+    }
+    .resume {
+        margin-top: 20vh;
+    }
+}

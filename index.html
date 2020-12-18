@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mariano Resume</title>
-    <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -49,9 +48,18 @@
         <div class="about container" id="about">
             <div class="row">
                 <div class="col-md-6 text-center">
-                    <img src="images/mariano2.jpg" class="profile-img">
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <img src="images/mariano2.jpg" alt="" class="profile-img">
+                            </div>
+                            <div class="flip-box-back">
+                                <img src="images/mariano3.jpg" class="profile-img" alt="">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 txt_aboutme">
                     <h3>A little about myself</h3>
                     <p>I am a ver curious person. Always trying to learn something new, something that helps me in my work and career. I like challenges and that feeling of satisfaction when fulfilling them.
                         <br><br> Once upon a time I was Veterinarian. After I discovered the programming world I fell in love with it and started investigating and learning. Some time later I manage to get my first job as a Java Developer. After that,
@@ -115,7 +123,7 @@
                             <li>
                                 <h4><span>2020 - </span>"Technical Degree in Computer Application Development"</h4>
                                 <p>The Technical Degree in Computer Application Development (called TUDAI) is aimed at the training of professionals to be able to perform specific tasks in any organization that requires the computerization of its processes.</p>
-                                <b>Where: </b>UNIVERSIDAD NACIONAL DEL CENTRO DE LA PROVINCIA DE BUENOS AIRES<br>
+                                <b>Where: </b>Universidad Nacional del Centro de la Provincia de Buenos Aires<br>
                                 <b>Duration: </b>2020 - present<br>
                             </li>
                             <li>
@@ -151,6 +159,8 @@
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="js/smooth-scroll.js"></script>
     <script src="js/main.js"></script>
+    <link rel="stylesheet" href="styles/style.css">
+
     <script>
         var scroll = new SmoothScroll('a[href*="#"]');
     </script>
