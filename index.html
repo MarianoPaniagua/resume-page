@@ -5,10 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mariano Resume</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
 </head>
 
 <body>
@@ -27,7 +26,6 @@
         <!-----Navbar----->
         <div class="nav-bar">
             <nav class="navbar navbar-expand-lg">
-                <a class="navbar-brand" href="#"><img src="images/logo.jpg"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fas fa-bars"></i>
                 </button>
@@ -61,17 +59,17 @@
                     </p>
                     <div class="skills-bar">
                         <h3>Technical Skills</h3>
-                        <p>Java Development</p>
+                        <p>Backend skills (PHP, Java, Maven, Gradle, Jenkings, Spring Boot)</p>
                         <div class="progress">
                             <div class="progress-bar" style="width: 50%;">50%</div>
+                        </div>
+                        <p>Frontend skills (HTML5, CSS3, JS, Bootstrap, React)</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 20%;">20%</div>
                         </div>
                         <p>Aws Development (Lambda, DynamoDB, SQS, EC2)</p>
                         <div class="progress">
                             <div class="progress-bar" style="width: 30%;">30%</div>
-                        </div>
-                        <p>Frontend skills (HTML, CSS, JS, PHP)</p>
-                        <div class="progress">
-                            <div class="progress-bar" style="width: 20%;">20%</div>
                         </div>
                     </div>
                 </div>
@@ -100,8 +98,11 @@
                         <ul class="timeline">
                             <li>
                                 <h4><span>2020 - </span>Java Developer</h4>
-                                <p>Working in "Pogo" project for Electronics Arts. Pogo is a web app that host lots of games. My work is to develop new functionalities/libraries for the different platforms of Pogo and bug fixing. Java 8, Spring, Maven-Gradle,
-                                    P4v-Git, AWS-SDKs are some of the technologies used in this project.
+                                <p>Working in Pogo project for Electronics Arts. Pogo is a web app that host lots of games. My work is to develop new functionalities/libraries for the different platforms of Pogo, migrating features between platforms, creating
+                                    REST APIs and doing general maintenance and troubleshooting. We work within a framework of continuous integration process with Jenkins-GitLabCI and agile methodologies.
+                                </p>
+                                <p>
+                                    Developed a tool with Google Script in order to auto generate Slides presentations for the Sales area.
                                 </p>
                                 <b>Where: </b>Globant<br>
                                 <b>Duration: </b>2018 - present<br>
@@ -121,10 +122,9 @@
                                 <h4><span>Always - </span>Technical courses</h4>
                                 <p>Always learning something new. Taking courses of the technologies I use in work and also the ones I feel curious about.</p>
                                 <b>Where: </b>Online platforms<br>
-                                <b>Examples: </b>(see more on my Linkedin profile)<br> Serverless Concepts - Linux Academy
-                                <br> Maven Fundamentals - Pluralsight
-                                <br> Git - Acámica<br> Docker Essentials - Udemy<br>
-
+                                <div class="text-center coursesBtn">
+                                    <button type="button" class="btn btn-dark "><a href="courses.html">Go to courses page</a></button>
+                                </div>
                             </li>
                         </ul>
                     </div>
@@ -149,8 +149,8 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <script src="smooth-scroll.js"></script>
-    <script src="main.js"></script>
+    <script src="js/smooth-scroll.js"></script>
+    <script src="js/main.js"></script>
     <script>
         var scroll = new SmoothScroll('a[href*="#"]');
     </script>

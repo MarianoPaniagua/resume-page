@@ -1,0 +1,67 @@
+[{
+        "title": "Docker Essentials",
+        "url": "https://www.udemy.com/certificate/UC-NPVBNHWJ/",
+        "img": "images/certs/docker-essentials.jpg",
+        "info": ""
+    },
+    {
+        "title": "Plan 111Mil - Trayecto Programador",
+        "url": "images/certs/111.jpg",
+        "img": "images/certs/111.jpg",
+        "info": ""
+    },
+    {
+        "title": "Código de Calidad y Refactoring",
+        "url": "images/certs/codigo_calidad.jpg",
+        "img": "images/certs/codigo_calidad.jpg",
+        "info": ""
+    },
+    {
+        "title": "HTML5",
+        "url": "images/certs/html5_acamica.jpg",
+        "img": "images/certs/html5_acamica.jpg",
+        "info": ""
+    },
+    {
+        "title": "JavaScript: Functions",
+        "url": "images/certs/js-functions.jpg",
+        "img": "images/certs/js-functions.jpg",
+        "info": ""
+    },
+    {
+        "title": "Serverless concepts",
+        "url": "images/certs/serverless concepts.jpg",
+        "img": "images/certs/serverless concepts.jpg",
+        "info": ""
+    },
+    {
+        "title": "Scrum",
+        "url": "images/certs/scrum_acamica.jpg",
+        "img": "images/certs/scrum_acamica.jpg",
+        "info": ""
+    },
+    {
+        "title": "JavaScript: Modules",
+        "url": "images/certs/js-modules.jpg",
+        "img": "images/certs/js-modules.jpg",
+        "info": ""
+    },
+    {
+        "title": "Sistemas Rest en Java",
+        "url": "images/certs/java_rest_acamica.jpg",
+        "img": "images/certs/java_rest_acamica.jpg",
+        "info": ""
+    },
+    {
+        "title": "Git",
+        "url": "images/certs/git_acamica.jpg",
+        "img": "images/certs/git_acamica.jpg",
+        "info": ""
+    },
+    {
+        "title": "Java fundamentals: Exception Handling",
+        "url": "images/certs/java-error h.jpg",
+        "img": "images/certs/java-error h.jpg",
+        "info": ""
+    }
+]
